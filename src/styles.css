@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80)
+    no-repeat center center/cover;
+  line-height: 2rem;
+}
+
+.App {
+  padding-left: 30px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #000;
+}
+
+h2,
+h3,
+input,
+.output,
+ul {
+  margin-bottom: 10px;
+}
+input {
+  width: 95%;
+  padding: 10px;
+}
+input:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > * {
+  font-size: 25px;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.output {
+  text-align: center;
+  width: 65%;
+  padding: 14px;
+  border: 8px double green;
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.output > * {
+  text-underline-position: below;
+  text-decoration: 2px solid green underline;
+  padding-left: 15px;
+}
