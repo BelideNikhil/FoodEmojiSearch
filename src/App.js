@@ -150,6 +150,18 @@ export default function App() {
         </ul>
       </div>
       <div className="output">Emoji Name---{input}</div>
+
+      <footer>
+        <h4>Made by Nikhil Belide</h4>
+        <ul>
+          <li>
+            <a href="https://twitter.com/Nikhil_Belide" target="_blank">TWITTER</a>
+          </li>
+          <li>
+            <a href="https://github.com/BelideNikhil/FoodEmojiSearch" target="_blank">GITHUB</a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
