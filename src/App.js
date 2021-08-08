@@ -118,9 +118,6 @@ export default function App() {
 
     if (foodDb[event.target.value] === undefined) {
       setInput(" not in our CookBook yet");
-      setTimeout(() => {
-        setInput("");
-      }, 2500);
     }
   }
 
