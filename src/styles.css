@@ -37,6 +37,9 @@ input {
 input:focus {
   outline: none;
 }
+a {
+  text-decoration: none;
+}
 
 ul {
   list-style: none;
@@ -45,7 +48,7 @@ ul {
 
 ul > * {
   font-size: 25px;
-  margin-right: 10px;
+  margin: 6px;
   padding: 10px;
   cursor: pointer;
 }
@@ -64,4 +67,28 @@ ul > * {
   text-underline-position: below;
   text-decoration: 2px solid green underline;
   padding-left: 15px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+footer ul a {
+  font-size: 0.8rem;
+  color: #000;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 1px;
+  font-weight: 600;
 }
